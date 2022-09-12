@@ -21,7 +21,7 @@ const WhyCappo = () => {
 				alt=''
 				className='absolute hidden xl:block bottom-[40px] right-[-100px]'
 			/>
-			<div className='flex flex-col flex-1 items-center justify-start  lg:w-full md:flex-row gap-[45px] md:gap-[30px] lg:gap-[99px]'>
+			<div className='flex flex-col flex-1 items-center justify-center lg:w-full md:flex-row gap-[45px] md:gap-[30px] lg:gap-[99px]'>
 				<div
 					data-aos='fade-up'
 					data-aos-offset='120'
@@ -63,7 +63,7 @@ const WhyCappo = () => {
 					className='lg:w-[50%] w-full'
 				>
 					<img
-						src='/images/illustrations2.png'
+						src='./images/illustrations2.png'
 						alt=''
 						width={650}
 						height='473px'

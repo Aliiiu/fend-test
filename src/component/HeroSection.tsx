@@ -2,12 +2,12 @@ const HeroSection = () => {
 	return (
 		<div className='flex flex-col lg:flex-row w-[100%] container px-4 py-4 md:px-[40px] lg:px-[60px] overflow-hidden xl:px-[120px] xl:pt-[60px] relative'>
 			<img
-				src='/images/rect.png'
+				src='./images/rect.png'
 				alt=''
 				className='absolute bottom-[-150px] right-[-260px] hidden xl:block'
 			/>
 			<img
-				src='/images/rect.png'
+				src='./images/rect.png'
 				alt=''
 				className='absolute bottom-[-120px] left-[250px] hidden xl:block'
 			/>
@@ -40,10 +40,9 @@ const HeroSection = () => {
 				<button
 					data-aos='fade-up'
 					data-aos-offset='100'
-					className='bg-[#3671E9] mt-[32px] flex gap-[24px] py-[16px] pr-[16px] pl-[24px] rounded-[32px]'
+					className='bg-[#3671E9] mt-[32px] flex items-center gap-[24px] py-[16px] pr-[16px] pl-[24px] rounded-[32px]'
 				>
-					Try for FREE{' '}
-					<img src='/images/ArrowRight.svg' alt='' width={24} height='24px' />
+					Try for FREE <img src='./images/ArrowRight.svg' alt='' />
 				</button>
 			</div>
 			<div
@@ -51,7 +50,7 @@ const HeroSection = () => {
 				data-aos-offset='110'
 				className='lg:w-[50%] w-full  xl:pt-[0px] xl:pb-[61px]'
 			>
-				<img src='/images/illustration.png' alt='' width={604} height='585px' />
+				<img src='./images/illustration.png' alt='' />
 			</div>
 		</div>
 	);
