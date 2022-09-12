@@ -50,7 +50,7 @@ const HeroSection = () => {
 				data-aos-offset='110'
 				className='lg:w-[50%] w-full  xl:pt-[0px] xl:pb-[61px]'
 			>
-				<img src='./images/illustration.png' alt='' />
+				<img src='./images/Illustration.png' alt='' />
 			</div>
 		</div>
 	);

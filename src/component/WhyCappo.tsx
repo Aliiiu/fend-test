@@ -62,12 +62,7 @@ const WhyCappo = () => {
 					data-aos-offset='200'
 					className='lg:w-[50%] w-full'
 				>
-					<img
-						src='./images/illustrations2.png'
-						alt=''
-						width={650}
-						height='473px'
-					/>
+					<img src='./images/Illustrations2.png' alt='' />
 				</div>
 				<div
 					data-aos='fade-up'
