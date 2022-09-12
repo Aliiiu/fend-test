@@ -1,13 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+	border-radius: 32px;
+	font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+.container {
+	max-width: 1440px;
+	color: white;
+	margin: 0 auto;
+}
+
+.card_shadow {
+	filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+}
+
+.bg-vector {
+	background-image: url('/public/images/bgForm.png');
+	background-size: cover;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul.options {
+	border: 1px solid gray;
+	background-color: #fff;
+	display: none;
+	list-style: none;
+}
+
+ul.show {
+	display: block;
+}
+
+ul.options li {
+	padding: 6px 10px;
+}
+
+ul.options li:active,
+ul.options li:focus,
+ul.options li:hover,
+ul.options li[aria-selected='true'] {
+	background: gray;
+	cursor: pointer;
+}
+
+.custom-select {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #e0e0e0;
+	width: 100%;
+	max-width: 200px;
+}
+
+@media only screen and (min-width: 764px) {
+	h1,
+	h2,
+	h3 {
+		font-weight: 600;
+	}
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	h3 {
+		font-size: 24px;
+	}
+}
+@media only screen and (min-width: 1280px) {
+	h1,
+	h2,
+	h3 {
+		font-weight: 600;
+	}
+	h1 {
+		font-size: 64px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	h3 {
+		font-size: 32px;
+	}
 }
