@@ -6,44 +6,11 @@ const CustomSelect = () => {
 	const [item, setItem] = useState(0);
 	const toggling = () => setIsOpen(!isOpen);
 
-	const handleListKeyDown = (e: any) => {
-		switch (e.key) {
-			case 'Escape':
-				e.preventDefault();
-				setIsOpen(false);
-				break;
-			case 'ArrowUp':
-				e.preventDefault();
-				setItem(item - 1 >= 0 ? item - 1 : OPTIONS.length - 1);
-				break;
-			case 'ArrowDown':
-				e.preventDefault();
-				setItem(item === OPTIONS.length - 1 ? 0 : item + 1);
-				break;
-			default:
-				break;
-		}
-	};
-
-	const handleKeyDown = (index: any) => (e: any) => {
-		switch (e.key) {
-			case ' ':
-			case 'SpaceBar':
-			case 'Enter':
-				e.preventDefault();
-				setItem(index);
-				setIsOpen(false);
-				break;
-			default:
-				break;
-		}
-	};
 	return (
-		<div className='custom-select relative'>
+		<div className='relative custom-select'>
 			<div
 				aria-haspopup='menu'
 				onClick={toggling}
-				onKeyDown={handleListKeyDown}
 				className='flex items-center justify-between cursor-pointer pt-[6px] h-[38px] text-[#0D0D2B] w-full'
 			>
 				{OPTIONS[item] || 'TH/s'}
@@ -56,7 +23,6 @@ const CustomSelect = () => {
 					<ul
 						role={'menu'}
 						aria-activedescendant={OPTIONS[item]}
-						onKeyDown={handleListKeyDown}
 						className={`options ${isOpen ? 'show' : ''}`}
 						tabIndex={-1}
 					>
@@ -67,7 +33,6 @@ const CustomSelect = () => {
 									setItem(index);
 									setIsOpen(false);
 								}}
-								onKeyDown={handleKeyDown(index)}
 								aria-selected={item === index}
 								key={option}
 								tabIndex={0}

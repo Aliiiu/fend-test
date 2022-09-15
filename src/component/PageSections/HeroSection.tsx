@@ -40,7 +40,7 @@ const HeroSection = () => {
 				<button
 					data-aos='fade-up'
 					data-aos-offset='100'
-					className='bg-[#3671E9] mt-[32px] flex items-center gap-[24px] py-[16px] pr-[16px] pl-[24px] rounded-[32px]'
+					className='bg-[#3671E9] mt-[32px] flex items-center gap-[24px] py-[10px] pr-[16px] pl-[24px] rounded-[32px]'
 				>
 					Try for FREE <img src='./images/ArrowRight.svg' alt='' />
 				</button>

@@ -70,37 +70,6 @@ img {
 	height: auto;
 }
 
-ul.options {
-	border: 1px solid gray;
-	background-color: #fff;
-	display: none;
-	list-style: none;
-}
-
-ul.show {
-	display: block;
-}
-
-ul.options li {
-	padding: 6px 10px;
-}
-
-ul.options li:active,
-ul.options li:focus,
-ul.options li:hover,
-ul.options li[aria-selected='true'] {
-	background: gray;
-	cursor: pointer;
-}
-
-.custom-select {
-	display: flex;
-	align-items: center;
-	border-bottom: 1px solid #e0e0e0;
-	width: 100%;
-	max-width: 200px;
-}
-
 @media only screen and (min-width: 764px) {
 	h1,
 	h2,

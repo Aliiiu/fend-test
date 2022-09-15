@@ -25,7 +25,7 @@ const WhyCappo = () => {
 				<div
 					data-aos='fade-up'
 					data-aos-offset='120'
-					className='flex gap-[24px]'
+					className='flex gap-[24px] max-w-[330px] w-full'
 				>
 					<img src='/images/totalFX.svg' alt='' />
 					<div className='flex flex-col gap-[4px]'>
@@ -36,7 +36,7 @@ const WhyCappo = () => {
 				<div
 					data-aos='fade-up'
 					data-aos-offset='130'
-					className='flex gap-[24px]'
+					className='flex gap-[24px] max-w-[330px] w-full'
 				>
 					<img src='/images/totalWallet.svg' alt='' />
 					<div className='flex flex-col gap-[4px]'>
@@ -47,7 +47,7 @@ const WhyCappo = () => {
 				<div
 					data-aos='fade-up'
 					data-aos-offset='150'
-					className='flex gap-[24px]'
+					className='flex gap-[24px] max-w-[330px] w-full'
 				>
 					<img src='/images/countries.svg' alt='' />
 					<div className='flex flex-col gap-[4px]'>
@@ -74,7 +74,7 @@ const WhyCappo = () => {
 						Experience the next generation cryptocurrency platform. No financial
 						borders, extra fees, and fake reviews.
 					</p>
-					<button className='rounded-[32px] mt-[32px] bg-[#3671E9] py-[16px] px-[24px]'>
+					<button className='rounded-[32px] mt-[32px] bg-[#3671E9] py-[10px] px-[24px]'>
 						Learn More
 					</button>
 				</div>

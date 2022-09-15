@@ -10,12 +10,12 @@ const Calculate = () => {
 			>
 				<div className='flex flex-col lg:flex-row gap-y-[32px] lg:gap-y-0 justify-between'>
 					<input
-						className='text-[#0D0D2B] w-full lg:w-auto pr-[200px] text-[20px] bg-transparent py-0 border-b  border-[#E0E0E0] outline-none'
+						className='text-[#0D0D2B] placeholder-[#0D0D2B] w-full lg:w-auto pr-[200px] text-[20px] bg-transparent py-0 border-b  border-[#E0E0E0] outline-none'
 						type='text'
 						placeholder='Enter your hash rate'
 					/>
 					<CustomSelect />
-					<button className='bg-[#3671E9] py-[16px] px-[32px]'>
+					<button className='bg-[#3671E9] py-[10px] px-[32px]'>
 						Calculate
 					</button>
 				</div>
