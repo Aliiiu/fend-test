@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@tailwind screens;
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
 
@@ -69,6 +68,38 @@ h3 {
 img {
 	max-width: 100%;
 	height: auto;
+	object-fit: contain;
+}
+
+ul.options {
+	border: 1px solid gray;
+	background-color: #fff;
+	display: none;
+	list-style: none;
+}
+
+ul.show {
+	display: block;
+}
+
+ul.options li {
+	padding: 6px 10px;
+}
+
+ul.options li:active,
+ul.options li:focus,
+ul.options li:hover,
+ul.options li[aria-selected='true'] {
+	background: gray;
+	cursor: pointer;
+}
+
+.custom-select {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #e0e0e0;
+	width: 100%;
+	max-width: 200px;
 }
 
 @media only screen and (min-width: 764px) {
@@ -88,7 +119,12 @@ img {
 	h3 {
 		font-size: 24px;
 	}
+	img {
+		max-width: 80%;
+		margin: 0 auto;
+	}
 }
+
 @media only screen and (min-width: 1280px) {
 	h1,
 	h2,
