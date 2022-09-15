@@ -9,8 +9,8 @@ const Header = () => {
 		<div className='container px-4 py-4 md:px-[40px] md:py-[20px] lg:px-[60px] xl:px-[120px] xl:pt-[30px]'>
 			<header className='flex items-center justify-between'>
 				<img src='/images/Logo.svg' alt='' width={135} height='40px' />
-				<nav className='block'>
-					<div className='flex gap-[40px]'>
+				<nav>
+					<div className='hidden lg:flex lg:visible gap-[40px]'>
 						<ul className='flex font-normal items-center gap-[32px]'>
 							<li>Products</li>
 							<li>Features</li>
