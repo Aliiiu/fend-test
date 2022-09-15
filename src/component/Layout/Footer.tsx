@@ -1,7 +1,7 @@
 const Footer = () => {
 	return (
-		<footer className=' bg-[#0D0D2B]'>
-			<div className='container bg-[#0D0D2B] px-4 md:px-[40px] lg:px-[60px] py-[40px] xl:px-[120px] xl:pt-[80px]'>
+		<footer className=' bg-deepBlue'>
+			<div className='container bg-[deep] px-4 md:px-[40px] lg:px-[60px] py-[40px] xl:px-[120px] xl:pt-[80px]'>
 				<div className='flex flex-col gap-6 lg:justify-between lg:flex-row'>
 					<div className='mx-auto lg:mx-0 flex-start'>
 						<a href='/'>
