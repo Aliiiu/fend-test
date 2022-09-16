@@ -120,7 +120,14 @@ ul.options li[aria-selected='true'] {
 		font-size: 24px;
 	}
 	img {
-		max-width: 80%;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	img {
+		max-width: 100%;
 		margin: 0 auto;
 	}
 }

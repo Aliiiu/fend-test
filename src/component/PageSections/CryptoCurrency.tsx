@@ -5,19 +5,19 @@ const CryptoCurrency = () => {
 
 	const CRYPTOCURRENCIES = [
 		{
-			img: '/images/btc.svg',
+			img: '/svgs/btc.svg',
 			name: 'bitcoin',
 			tag: 'BTC',
 			desc: 'Digital currency in which a record of transactions is maintained.',
 		},
 		{
-			img: '/images/eth.svg',
+			img: '/svgs/eth.svg',
 			name: 'ethereum',
 			tag: 'eth',
 			desc: 'Blockchain technology to create and run decentralized digital applications.',
 		},
 		{
-			img: '/images/ltc.svg',
+			img: '/svgs/ltc.svg',
 			name: 'litecoin',
 			tag: 'ltc',
 			desc: 'Cryptocurrency that enables instant payments to anyone in the world.',
@@ -46,7 +46,7 @@ const CryptoCurrency = () => {
 						}  card_shadow cursor-pointer w-full py-[48px] px-[24px] rounded-[16px]`}
 					>
 						<div className='mx-auto w-max mb-[48px]'>
-							<img src={coin.img} alt='' width={80} height='80px' />
+							<img src={coin.img} alt='' />
 						</div>
 						<h3 className='text-center capitalize'>
 							{coin.name}
@@ -59,7 +59,7 @@ const CryptoCurrency = () => {
 							<button className='bg-[#3671E9] mx-auto mt-[24px] flex gap-[24px] py-[16px] pr-[16px] pl-[24px] rounded-[32px]'>
 								Start mining
 								<img
-									src='/images/ArrowRight.svg'
+									src='/svgs/ArrowRight.svg'
 									alt=''
 									width={24}
 									height='24px'
@@ -67,7 +67,7 @@ const CryptoCurrency = () => {
 							</button>
 						) : (
 							<div className='mx-auto mt-[24px] w-max'>
-								<img src='/images/right.svg' alt='' width={64} height='64px' />
+								<img src='/svgs/right.svg' alt='' />
 							</div>
 						)}
 					</div>

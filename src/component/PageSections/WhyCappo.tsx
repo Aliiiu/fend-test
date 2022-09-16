@@ -27,7 +27,7 @@ const WhyCappo = () => {
 					data-aos-offset='120'
 					className='flex gap-[24px] max-w-[330px] w-full'
 				>
-					<img src='/images/totalFX.svg' alt='' />
+					<img src='/svgs/totalFX.svg' alt='' />
 					<div className='flex flex-col gap-[4px]'>
 						<h3 className=''>$30B</h3>
 						<p className='text-[#E0E0E0]'>Digital Currency Exchanged</p>
@@ -38,7 +38,7 @@ const WhyCappo = () => {
 					data-aos-offset='130'
 					className='flex gap-[24px] max-w-[330px] w-full'
 				>
-					<img src='/images/totalWallet.svg' alt='' />
+					<img src='/svgs/totalWallet.svg' alt='' />
 					<div className='flex flex-col gap-[4px]'>
 						<h3 className=''>10M+</h3>
 						<p className='text-[#E0E0E0]'>Trusted Wallets Investor</p>
@@ -49,7 +49,7 @@ const WhyCappo = () => {
 					data-aos-offset='150'
 					className='flex gap-[24px] max-w-[330px] w-full'
 				>
-					<img src='/images/countries.svg' alt='' />
+					<img src='/svgs/countries.svg' alt='' />
 					<div className='flex flex-col gap-[4px]'>
 						<h3 className=''>195</h3>
 						<p className='text-[#E0E0E0]'>Countries Supported</p>

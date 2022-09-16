@@ -5,11 +5,11 @@ const Footer = () => {
 				<div className='flex flex-col gap-6 lg:justify-between lg:flex-row'>
 					<div className='mx-auto lg:mx-0 flex-start'>
 						<a href='/'>
-							<img src='/images/Logo.svg' alt='' />
+							<img src='/svgs/Logo.svg' alt='' />
 						</a>
 					</div>
 					<div className='flex flex-col md:flex-row justify-between mt-[18px] lg:mt-0 '>
-						<div className='flex flex-col md:flex-row gap-[20px] lg:gap-[50px] xl:gap-[80px]'>
+						<div className='flex flex-col w-full lg:flex-row gap-[20px] lg:gap-[50px] xl:gap-[80px]'>
 							<div className='w-full text-center lg:text-left'>
 								<h5 className='text-[18px] sm:text-[20px] mb-[12px] lg:mb-[24px] font-medium'>
 									Quick Link
@@ -36,14 +36,14 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className=''>
-						<h3 className='mb-[40px] text-[15px] max-w-[352px] text-center md:text-left mx-auto lg:text-[30px] font-medium'>
+					<div className='flex flex-col'>
+						<h3 className='mb-[40px] text-[15px] md:text-[18px] max-w-[352px] text-center md:text-left mx-auto lg:text-[30px] font-medium'>
 							We accept following payment systems
 						</h3>
 						<div className='flex items-center justify-center gap-2 overflow-clip md:gap-6'>
-							<img src='/images/Visa.svg' alt='' />
-							<img src='/images/Mastercard.svg' alt='' />
-							<img src='/images/Bitcoin.svg' alt='' />
+							<img src='/svgs/Visa.svg' alt='' />
+							<img src='/svgs/Mastercard.svg' alt='' />
+							<img src='/svgs/Bitcoin.svg' alt='' />
 						</div>
 					</div>
 				</div>
@@ -52,11 +52,11 @@ const Footer = () => {
 						©2021 CRAPPO. All rights reserved
 					</p>
 					<div className='flex gap-[32px]'>
-						<img src='/images/facebook.svg' alt='' width={24} height='24px' />
-						<img src='/images/instagram.svg' alt='' width={24} height='24px' />
-						<img src='/images/youtube.svg' alt='' width={24} height='24px' />
-						<img src='/images/twitter.svg' alt='' width={24} height='24px' />
-						<img src='/images/linkedin.svg' alt='' width={24} height='24px' />
+						<img src='/svgs/facebook.svg' alt='' />
+						<img src='/svgs/instagram.svg' alt='' />
+						<img src='/svgs/youtube.svg' alt='' />
+						<img src='/svgs/twitter.svg' alt='' />
+						<img src='/svgs/linkedin.svg' alt='' />
 					</div>
 				</div>
 			</div>

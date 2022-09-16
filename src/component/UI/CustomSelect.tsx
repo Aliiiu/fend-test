@@ -15,7 +15,7 @@ const CustomSelect = () => {
 			>
 				{OPTIONS[item] || 'TH/s'}
 				<div className='bg-orange-100'>
-					<img src='/images/ArrowDown.svg' alt='' width={16} height='16px' />
+					<img src='/svgs/ArrowDown.svg' alt='' width={16} height='16px' />
 				</div>
 			</div>
 			{isOpen && (
