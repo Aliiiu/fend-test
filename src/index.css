@@ -102,6 +102,11 @@ ul.options li[aria-selected='true'] {
 	max-width: 200px;
 }
 
+.flip {
+	transition: all 1s ease-in-out;
+	animation: rotate 1s ease-in-out;
+}
+
 @media only screen and (min-width: 764px) {
 	h1,
 	h2,
@@ -148,5 +153,18 @@ ul.options li[aria-selected='true'] {
 
 	h3 {
 		font-size: 32px;
+	}
+}
+
+@keyframes rotate {
+	0% {
+		-webkit-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: rotateY(360deg);
+		transform: rotateY(360deg);
+		opacity: 1;
 	}
 }
